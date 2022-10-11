@@ -1,0 +1,95 @@
+/* This styling is using the type selector for the body element to add a background image */
+body {
+    background-color: rgb(255, 255, 255);
+    /* Using the department of coffee and social affaris image by Micheal Dales is liceensed und CC BY-NC 2.0 */
+    background-image: url(PumpkinCoffeeResources/departmentOfCoffee.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* This will style the wrapper using the class selector  */
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+/* This styling will use the type selector for the header element */
+
+/* This will style will resize the logo */
+.logoImage {
+    height: 118px;
+
+}
+
+/* This section of css will sty;e the nav */
+nav {
+    /* background-color: rgb(0, 0, 0); */
+    height: 40px;
+    text-align: center;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* This is using a compound selector */
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* This section of css will style the main */
+main {
+    /* background-color: rgb(68, 219, 249); */
+    min-height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+main h1 {
+    font-size: 85px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+}
+
+main h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgb(48, 42, 139);
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main p {
+    font-size: 18px;
+    /* color: rgb(255, 255, 255); */
+    text-shadow: 1px 1px 2px rgb(255, 254, 254);
+}
+
+.map {
+    padding-top: 65px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+/* This css will style the footer */
+footer {
+    /* background-color: rgb(255, 255, 255); */
+    height: 75px;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px;
+}
